@@ -1,6 +1,6 @@
 
 def using_push(arr, elem)
-  new_array = array.push(elem)
+  new_array = arr.push(elem)
 end
 
 def using_unshift(arr, elem)
@@ -16,7 +16,7 @@ def pop_with_args(arr)
 end
 
 def using_shift(arr)
-  array.shift
+  arrshift
 end
 
 def shift_with_args(arr)
